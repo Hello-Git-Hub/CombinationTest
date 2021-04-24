@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Main {
 
-    // generation char combination from string list
+    // generate char combination from string list
     static void generateCombinations(String[] lists, List<String> result, int depth, String current) {
         if (depth == lists.length) {
             result.add(current);
@@ -31,7 +31,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // numbers inputs
+        // inputs nums
         int[] input = new int[]{2,3};
 
         String[] srcList = mapNumsToStringList(input).toArray(new String[0]);
