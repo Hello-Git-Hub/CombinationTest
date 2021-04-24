@@ -38,7 +38,7 @@ public class Main {
         List<String> result = new ArrayList<>();
         generateCombinations(srcList, result, 0, "");
 
-        System.out.println((result));
+        System.out.println(result);
 
     }
 }
