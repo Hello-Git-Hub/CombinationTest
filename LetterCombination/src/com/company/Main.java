@@ -1,6 +1,8 @@
 package com.company;
 import java.util.*;
 
+// MyName: Jianwen He
+
 public class Main {
 
     // generate char combination from string list
